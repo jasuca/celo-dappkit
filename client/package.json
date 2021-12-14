@@ -22,7 +22,7 @@
     "crypto-browserify": "^3.12.0",
     "expo": "~36.0.0",
     "expo-asset": "~8.0.0",
-    "expo-cli": "^3.28.0",
+    "expo-cli": "^5.0.0",
     "expo-constants": "~8.0.0",
     "expo-contacts": "~8.0.0",
     "expo-file-system": "~8.0.0",

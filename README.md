@@ -125,6 +125,8 @@ You can look up the contract deployment transaction on the Alfajores block explo
 
 Truffle will save the deployment information to the Truffle artifact located at `client/contracts/HelloWorld.json`. You will use this deployment information to connect your React Native application to the correct contract.
 
+Note: Truffle (>5.4.0) doesn't estimate the gas properly, so you need to specify a gas limit in truffle.config.js. 
+
 ## Developing the mobile application
 
 Keep in mind that you will need a version of the Celo Wallet installed on the mobile device with which you are developing the application. The Celo Wallet is the private key management software that the user will sign transactions with. 

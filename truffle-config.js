@@ -32,7 +32,8 @@ module.exports = {
     },
     alfajores: {
       provider: kit.web3.currentProvider,
-      network_id: 44787
+      network_id: 44787,
+      gas: 4000000
     },
     mainnet: {
       provider: kit.web3.currentProvider,
